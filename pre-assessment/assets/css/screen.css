@@ -27,10 +27,7 @@ body {
 	border: 1px solid #c0c0c0;
 	padding: 5px;
   }
-#header {
-}
-#header h1 a {
-}
+
 .replace-name a {
     display: block;
 	width:800px;
@@ -92,14 +89,15 @@ body {
 }
  .alert{
 	background-color: aqua;
+	color:rgb(219, 51, 135);
  }
- h2 {
+  #content h2 {
 	color: rgb(59, 38, 38);
  }
- h3 {
+  #content h3 {
 	color: rgb(148, 145, 144);
  }
- h4 {
+  #content h4 {
 	color: red;
  }
  #content a:hover{
