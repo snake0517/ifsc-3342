@@ -21,10 +21,27 @@ body {
 	margin-top: 20px;
 	border: 1px solid #CCC;
 }
+.img-right {
+	float: right;
+	margin: 20px 0px 20px 20px;
+	border: 1px solid #c0c0c0;
+	padding: 5px;
+  }
 #header {
 }
 #header h1 a {
 }
+.replace-name a {
+    display: block;
+	width:800px;
+	height: 160px;
+	background: url("../img/header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+  }
 #nav {
 	background-color: #000;
 }
@@ -73,3 +90,18 @@ body {
 	margin-right: 20px;
 	margin-left: 20px;
 }
+ .alert{
+	background-color: aqua;
+ }
+ h2 {
+	color: rgb(59, 38, 38);
+ }
+ h3 {
+	color: rgb(148, 145, 144);
+ }
+ h4 {
+	color: red;
+ }
+ #content a:hover{
+color: cornflowerblue;
+ }
