@@ -29,31 +29,31 @@ html {
   background-image:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/7248/grid-1.png");*/
 
 main{
-  width: 960px;
+  
   margin: 20px auto;
   border: 1px solid #000;
-  background-image: url("../img/grid.png");
+  
 }
 
 header.primary, footer.primary{
-    width: 916px;
-  margin: 20px;
+    width: 95.41%;
+  margin: 2.083%;
   background-color: rgba(0, 0, 0, 0.4);
   float: left;
-  padding: 20px;
+  padding: 2.083%;
 }
 
 #blog{
-    width: 604px;
+    width: 62.91%;
     background-color: rgba(0, 0, 0, 0.4);
     float: left;
-    margin-left: 20px;
-    padding: 20px;
+    margin-left: 2.083%;
+    padding: 2.083%;
 }
  aside{
-    width: 292px;
+    width: 30.41%;
     background-color: rgba(0, 0, 0, 0.4);
     float: left;
-    margin-left: 20px;
-    padding: 20px;
+    margin-left: 2.083%;
+    padding: 2.083%;
  }
