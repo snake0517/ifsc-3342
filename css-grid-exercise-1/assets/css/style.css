@@ -33,27 +33,27 @@ main{
   margin: 20px auto;
   border: 1px solid #000;
   
+  width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  gap: 20px;
+  padding: 0 20px;
+  
 }
 
 header.primary, footer.primary{
-    width: 95.41%;
-  margin: 2.083%;
-  background-color: rgba(0, 0, 0, 0.4);
-  float: left;
-  padding: 2.083%;
+   grid-column: 1 / span 12;
+   padding: 20px;
 }
-
+#content{
+  grid-column: 1 / span 12;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  gap: 20px;
+}
 #blog{
-    width: 62.91%;
-    background-color: rgba(0, 0, 0, 0.4);
-    float: left;
-    margin-left: 2.083%;
-    padding: 2.083%;
+    grid-column: 1 / span 8;
 }
  aside{
-    width: 30.41%;
-    background-color: rgba(0, 0, 0, 0.4);
-    float: left;
-    margin-left: 2.083%;
-    padding: 2.083%;
+    grid-column: 9 / span 4;
  }
