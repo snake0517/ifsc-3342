@@ -96,7 +96,11 @@ textarea {
   
   /* ------ Fluid Images -------*/
   
-  img{max-width:100%;}
+  img{
+    display: block;
+    max-width:100%;
+    margin: auto;
+  }
   
   /* ------ Utility Classes  -------*/
   .container{
