@@ -106,7 +106,7 @@ textarea {
   .container{
     margin:0 auto;
     background:rgba(0,0,0,.15);
-    width:480px;
+    
   }
   
   /* ------ Helper Classes -------*/
@@ -261,7 +261,33 @@ textarea {
     text-align:center;
   padding:20px 0;
   }
-   
+  main.container{
+    display: grid;
+    grid-template-areas:
+      "title"
+      "about"
+      "education"
+      "experience"
+      "skills";
+  }
+  
+  .page-title{
+    grid-area: title;
+  }
+  #about{
+    grid-area: about;
+  }
+  #skills{
+    grid-area: skills;
+  }
+  #experience{
+    grid-area: experience;
+  }
+  #education{
+    grid-area: education;
+  }
+  
+  
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -356,6 +382,48 @@ textarea {
   /* Style adjustments for high resolution devices */
 }
 
+@media screen and (min-width:768px){
+  main.container {
+    max-width:900px;
+    grid-template-columns: 36.5% auto;
+    grid-template-areas:
+      "title title"
+      "about about"
+      "skills experience"
+      "...... education";
+  }
+  header.container{
+    max-width:900px;
+  }
+  
+  /*Nested Grid*/
+  #about{
+  display:grid;
+  grid-gap:2em;
+  grid-template-columns: 250px 1fr auto;
+  grid-template-areas:
+    "bio details details"
+    "related related related";
+}
+.bio{
+  grid-area:bio;
+}
+.details{
+  grid-area:details;
+}
+.related-links{
+  grid-area:related;
+  border-bottom:1px solid #999;
+  padding-bottom:50px
+}
+  
+  
+  
+  
+  
+  
+
+}
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
