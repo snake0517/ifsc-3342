@@ -9,7 +9,7 @@ header{
   background-image: url(../img/header.png);
   background-size: cover;
     background-position: center;
-    height: 300px;
+    height: 20%;
   color: white;
   padding: 1rem;
 }
@@ -19,7 +19,7 @@ nav ul.nav-links {
   padding: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  
 }
 
 nav ul.nav-links li {
@@ -34,7 +34,11 @@ nav ul.nav-links a {
 nav ul.nav-links a:hover {
   color: #ccc;
 }
-
+img{
+  display: block;
+  margin: auto;
+  width: 500px;
+}
 main {
   padding: 2rem;
 }
